@@ -11,8 +11,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node qpp.js",
-    "test": "mocha test.js --recursive"
+    "start": "node qpp.js"
   },
   "repository": {
     "type": "git",
