@@ -1,6 +1,12 @@
 version: 2.1
 orbs:
   node: circleci/node@4.1.0
+store_artifacts:
+  path: /tmp/artifact-1
+  destination: artifact-file
+
+- store_artifacts:
+    path: /tmp/artifacts
 workflows:
   node-tests:
     jobs:
