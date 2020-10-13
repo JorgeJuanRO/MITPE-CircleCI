@@ -13,6 +13,6 @@ orbs:
         - run: node --version
 
 workflows:
-  node-tests:
+  build_tests:
     jobs:
       - run_test
